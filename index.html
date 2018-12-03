@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+     <form>
+      Name: ชื่อ-นามสกุล<BR><INPUT TYPE="text" NAME="name" SIZE="20"required><BR><p>
+
+      
+      E-mail: ที่อยู่อีเมล์ของคุณ<BR><INPUT TYPE="text" NAME="email" SIZE="20"required><BR><p>
+
+      
+      Password:รหัสผ่านของคุณ<BR><INPUT TYPE="text" NAME="psw" SIZE="20"required><BR><p>
+
+      
+      คุณอายุเท่าใด(เลือกเพียงข้อเดียวเท่านั้น)<BR>
+      <INPUT TYPE="radio" NAME="age" VALUE="20-30">20-30ปี
+      <INPUT TYPE="radio" NAME="age" VALUE="31-40">31-40ปี
+      <INPUT TYPE="radio" NAME="age" VALUE="41-50">41-50ปี<BR><p>
+
+      
+      เพศ<BR>
+      <input type="radio" name="sex" value="ชาย">ชาย
+      <input type="radio" name="sex" value="หญิง">หญิง<BR><p>
+
+      
+      วันเดือนปีเกิด
+      <input type="date" name="bday" required><BR><p>
+      
+      กีฬาที่คุณชื่นชอบ(เลือกได้มากกว่า1ข้อ)<BR>
+      <input type="checkbox" name="spot" value="ว่ายน้ำ">ว่ายน้ำ
+      <input type="checkbox" name="spot" value="วิ่ง">วิ่ง
+      <input type="checkbox" name="spot" value="เทนนิส">เทนนิส<BR><p>
+
+      
+      จังหวัดบ้านเกิด<BR>
+      <SELECT NAME="province" SIZE="1">
+            <OPTION VALUE="กรุงเทพมหานคร">กรุงเทพมหานคร</OPTION>
+            <OPTION VALUE="กระบี่">กระบี่</OPTION>
+            <OPTION VALUE="กาญจนบุรี">กาญจนบุรี</OPTION>
+            <OPTION VALUE="กาฬสินธ์">กาฬสินธ์</OPTION>
+      </SELECT><BR><p>
+
+      คำแนะนำ/เสนอแนะ/ติชม: (เพื่อการปรับปรุงเว็บไซท์ครั้งต่อไป)
+      <BR><TEXTAREA NAME="comment" COLS="50" ROWS="5" WRAP="virtual"></textarea><P> 
+     <input type="submit" value="ส่งข้อมูล">
+     <input type="reset" value="ลบพิมพ์ใหม่">
+
+     </form>
+    </body>
+</html>
