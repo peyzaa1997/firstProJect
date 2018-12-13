@@ -1,0 +1,10 @@
+SELECT * FROM customer_bak
+INSERT INTO customer_tbl(cid,cname,address)
+VALUES('501','Pagorn','Lamppang');
+
+
+
+
+
+
+
